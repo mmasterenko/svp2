@@ -1,0 +1,14 @@
+Fix the main.css File:
+
+#page-slider .item {
+min-height: 100%;
+height:auto !important; /* real browsers */
+height:100%; /* IE6: treaded as min-height*/
+}
+
+And i think page left/right buttons must be fixed, it's better for usability:
+
+.welcome-page-left, 
+.welcome-page-right {
+position: fixed;
+}
