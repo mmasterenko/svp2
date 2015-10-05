@@ -4,4 +4,6 @@
 db.sqlite3
 venv
 staticfiles
+settings_dev.py
+pages/migrations
 
