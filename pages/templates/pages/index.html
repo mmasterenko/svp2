@@ -28,12 +28,15 @@
         <div class="container-inner">
             <div class="logo pull-left">
                 <a class="pull-left logo" href="{% url 'main' %}">
-                    <h1><img class="img-responsive" src="{% static 'images/logo.png' %}" alt="logo"></h1>
+                    <h1>
+                        <img class="img-responsive x-main-logo" src="{% static 'images/svp_logo_short.png' %}" alt="logo">
+                        {% comment %}<span>СеверВзрывПром</span>{% endcomment %}
+                    </h1>
                 </a>
             </div>
             <div class="menu pull-right">
                 <a href="#" class="nav-button">
-                    <i class="fa fa-align-justify"></i> Menu
+                    <i class="fa fa-align-justify"></i> Меню
                 </a> 
             </div>
         </div>
@@ -46,12 +49,12 @@
             <div class="main-nav">
                 <a id="hidemenu" href="#"><i class="fa fa-times-circle fa-2x"></i></a>
                 <ul>                     
-                    <li class="active"><a href="#" data-target="#page-slider" data-slide-to="0">Home</a></li>
-                    <li><a href="#" data-target="#page-slider" data-slide-to="1">About</a></li>
-                    <li><a href="#" data-target="#page-slider" data-slide-to="2">Service</a></li>                     
-                    <li><a href="#" data-target="#page-slider" data-slide-to="3">Portfolio</a></li>   
-                    <li><a href="#" data-target="#page-slider" data-slide-to="4">Blog</a></li> 
-                    <li><a href="#" data-target="#page-slider" data-slide-to="5">Contact</a></li>                  
+                    <li class="active"><a href="#" data-target="#page-slider" data-slide-to="0">Главная</a></li>
+                    <li><a href="#" data-target="#page-slider" data-slide-to="1">О компании</a></li>
+                    <li><a href="#" data-target="#page-slider" data-slide-to="2">Услуги</a></li>
+                    <li><a href="#" data-target="#page-slider" data-slide-to="3">Наши работы</a></li>
+                    <li><a href="#" data-target="#page-slider" data-slide-to="4">Контакты</a></li>
+                    <li><a href="#" data-target="#page-slider" data-slide-to="5">Написать письмо</a></li>
                 </ul>
             </div>
         </div>
@@ -85,15 +88,17 @@
                                     <div class="embed-responsive embed-responsive-16by9">
                                         <iframe src="https://player.vimeo.com/video/142158514"  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                                         <p>
-                                            <a href="https://vimeo.com/142158514">ОАО Севервзрывпром</a> from
+                                            <a href="https://vimeo.com/142158514">ООО Севервзрывпром</a> from
                                             <a href="https://vimeo.com/user44777650">Maksim Masterenko</a> on
                                             <a href="https://vimeo.com">Vimeo</a>.
                                         </p>
                                     </div>
                                 </div>
                                 <div class="col-sm-6 col-md-pull-6">
-                                    <h2 class="heading">The Next <br> Generation Themes</h2>
-                                    <p class="lead">Whether you require large banners and posters to promote your company or <br>some more subtle letter heads and business cards, </p>
+                                    <h2 class="heading"></h2>
+                                    <p class="lead">
+                                        Общество с ограниченной ответственностью «Севервзрывпром» (ООО "СВП") - одна из старейших на Кольском полуострове специализированных организаций, которая более 50 лет занимается производством буровзрывных работ на объектах промышленного, гражданского строительства и карьерах строительных материалов на территории г. Мурманска, Мурманской области и Республики Карелия.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -108,26 +113,32 @@
                         <div class="vertical-middle-inner">
 
                             <div class="text-center">
-                                <h2 class="page-header">About Us</h2>
+                                <h2 class="page-header">О компании</h2>
                             </div>
 
                             <div class="row">
                                 <div class="col-sm-4">
                                     <div class="box">
-                                        <h3>Our Company</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                        <h3>50 лет опыта</h3>
+                                        <p>
+                                            «СеверВзрывПром» одна из старейших на Кольском полуострове специализированных организаций, которая более 50 лет занимается производством буровзрывных работ на объектах промышленного, гражданского строительства и карьерах строительных материалов на территории г. Мурманска, Мурманской области и Республики Карелия.
+                                        </p>
                                     </div>
                                 </div>
                                 <div class="col-sm-4">
                                     <div class="box">
-                                        <h3>Our Mission</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                        <h3>Команда профессионалов</h3>
+                                        <p>
+                                            «СеверВзрывПром» - это в первую очередь команда высококвалифицированных инженеров и опытных специалистов, настоящих профессионалов своего дела.
+                                        </p>
                                     </div>
                                 </div>
                                 <div class="col-sm-4">
                                     <div class="box">
-                                        <h3>Our Vision</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                        <h3>Современное оборудование</h3>
+                                        <p>
+                                            Для выполнения любых видов буровзрывных работ компания располагает собственной развитой производственной базой, которая включает парк бурового оборудования фирм «Sandvik» и «Atlas Copco», экскаваторов «Volvo» и специализированных автомобилей для перевозки взрывчатых материалов.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -145,7 +156,7 @@
                         <div class="vertical-middle-inner">
 
                             <div class="text-center">
-                                <h2 class="page-header">Our Services</h2>
+                                <h2 class="page-header">Услуги</h2>
                             </div>
 
                             <div class="row">
@@ -192,7 +203,7 @@
                         <div class="vertical-middle-inner">
 
                             <div class="text-center">
-                                <h2 class="page-header">Our Portfolio</h2>
+                                <h2 class="page-header">Наши работы</h2>
                             </div>
 
                             <div class="row">
@@ -255,7 +266,7 @@
                         <div class="vertical-middle-inner">
 
                             <div class="text-center">
-                                <h2 class="page-header">Our Blog</h2>
+                                <h2 class="page-header">Контакты</h2>
                             </div>
 
                             <div class="row">
@@ -315,7 +326,7 @@
                         <div class="vertical-middle-inner">
 
                             <div class="text-center">
-                                <h2 class="page-header">Contact Us</h2>
+                                <h2 class="page-header">Написать нам</h2>
                             </div>
 
                             <form class="form-horizontal" id="contact-form" role="form">
@@ -362,7 +373,7 @@
 </section>
 
 <footer id="footer" class="text-center">
-    Designed by <a target="_blank" href="http://shapebootstrap.net/" title="Free Twitter Bootstrap WordPress Themes and HTML templates">ShapeBootstrap</a>
+    Designed by <a target="_blank" href="https://octet.spb.ru" title="OCTET">OKTET</a>
 </footer>
 
 <script type="text/javascript" src="{% static 'js/jquery.js' %}"></script>
