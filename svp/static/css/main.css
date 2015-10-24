@@ -92,6 +92,12 @@ a:hover {
 
 #header .logo h1 {
   margin: 0;
+  display: inline-block;
+}
+
+#header .logo h1 span {
+    display: inline-block;
+    vertical-align: middle;
 }
 
 #header .nav-button{
@@ -348,4 +354,5 @@ textarea.form-control {
 
 img.x-main-logo {
   height: 100px;
+  display: inline;
 }
