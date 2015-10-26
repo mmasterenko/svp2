@@ -342,6 +342,7 @@ textarea.form-control {
   box-shadow: none;
   -webkit-box-shadow: none;
   border: 2px solid rgba(255,255,255,.5);
+  color: white;
 }
 
 .form-control.form-control:focus {
