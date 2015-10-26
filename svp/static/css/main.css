@@ -372,3 +372,10 @@ img.x-main-logo {
   height: 100px;
   display: inline;
 }
+
+.yandex_map {
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 620px;
+    padding: 10px;
+}
