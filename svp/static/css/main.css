@@ -298,7 +298,7 @@ a.readmore {
   background: rgba(0,0,0,.5);
 }
 
-.box .service-icon {
+.box .service-icon, .service-icon {
     background-repeat: no-repeat;
     background-position-x: center;
     background-size: contain;
@@ -375,7 +375,7 @@ img.x-main-logo {
 
 .yandex_map {
     border: 1px solid white;
-    border-radius: 10px;
-    width: 620px;
-    padding: 10px;
+    border-radius: 2px;
+    width: 612px;
+    padding: 5px;
 }
