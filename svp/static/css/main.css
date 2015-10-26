@@ -298,6 +298,14 @@ a.readmore {
   background: rgba(0,0,0,.5);
 }
 
+.box .service-icon {
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: contain;
+    height: 40px;
+    display: block;
+}
+
 #footer {
   margin: 30px 0;
 }
