@@ -34,10 +34,10 @@ jQuery(function($) {
 		$.ajax({
 			url: $(this).attr('action'),
 			beforeSend: function(){
-				form_status.find('.form-status-content').html('<p><i class="fa fa-spinner fa-spin"></i> Email is sending...</p>').fadeIn();
+				form_status.find('.form-status-content').html('<p><i class="fa fa-spinner fa-spin"></i> Письмо посылается...</p>').fadeIn();
 			}
 		}).done(function(data){
-			form_status.find('.form-status-content').html('<p class="text-success">Thank you for contact us. As early as possible  we will contact you</p>').delay(3000).fadeOut();
+			form_status.find('.form-status-content').html('<p class="text-success">Спасибо что написали нам. Мы ответим Вам как можно быстрее</p>').delay(3000).fadeOut();
 		});
 	});
 
