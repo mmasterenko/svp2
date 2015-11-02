@@ -128,6 +128,17 @@ STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'svp/static'),
 )
 
+# # # # # # # #
+# ADMIN TOOLS #
+# # # # # # # #
+
+ADMIN_TOOLS_MENU = 'svp.menu.CustomMenu'
+
+ADMIN_TOOLS_INDEX_DASHBOARD = 'svp.dashboard.CustomIndexDashboard'
+
+ADMIN_TOOLS_APP_INDEX_DASHBOARD = 'svp.dashboard.CustomAppIndexDashboard'
+
+
 try:
     from settings_dev import *
 except ImportError:
